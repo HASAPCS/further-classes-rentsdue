@@ -29,9 +29,19 @@ public class Book {
         return this.checkedOut;
     }
 
-    public void setTitle() {
-        this.title=title;
+    public void setTitle(String newTitle) {
+        this.title=newTitle;
     }
 
-    // TODO: Implement getters, setters, and any other methods you find necessary
+    public void setAuthor(String newAuthor) {
+        this.author=newAuthor;
+    }
+
+    public void setISBN(String newISBN) {
+        this.ISBN=newISBN;
+    }
+
+    public void setCheckedOut(boolean newCheckedOut) {
+        this.checkedOut=newCheckedOut;
+    }
 }
