@@ -39,10 +39,6 @@ public class Flight {
     public List<Passenger> getPassengers() {
         return passengerlist;
     }
-
-
-
-
-
-    // TODO: Implement methods to book a flight for a passenger and cancel a booking
 }
+
+    // TODO: Implement methods to book a flight for a passenger and cancel a booking.

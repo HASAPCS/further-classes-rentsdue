@@ -29,4 +29,19 @@ public class Employee {
         return this.department;
     }
 
+    public void setName(String newname) {
+        this.name=newname;
+    }
+
+    public void setSalary(double newsalary) {
+        this.salary=newsalary;
+    }
+
+    public void setId(int newsalary) {
+        this.salary=newsalary;
+    }
+
+    public void setDepartment(String newdepartment) {
+        this.department=newdepartment;
+    }
 }
