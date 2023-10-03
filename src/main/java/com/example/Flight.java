@@ -24,5 +24,25 @@ public class Flight {
         passengerlist.remove(passenger);
     }
 
+    public String getFlightNumber() {
+        return this.flightNumber;
+    } 
+
+    public String getDestination() {
+        return this.destination;
+    } 
+
+    public String getOrigin() {
+        return this.origin;
+    }
+
+    public List<Passenger> getPassengers() {
+        return passengerlist;
+    }
+
+
+
+
+
     // TODO: Implement methods to book a flight for a passenger and cancel a booking
 }
